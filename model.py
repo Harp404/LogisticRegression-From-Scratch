@@ -121,5 +121,5 @@ while True:
     pred_rain = "rain" if (pred_prob >= 0.5) else "no rain"
 
     # Display results
-    print(f"Predicted Probability: {pred_prob[0]:.4f}")
+    print(f"Predicted Probability: {pred_prob[0]:.4f}")  #We used [0] so that the output doesnt show in a array and prints as a float(in this case)
     print(f"Rain Prediction: {pred_rain}")
