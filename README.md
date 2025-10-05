@@ -92,7 +92,7 @@ The model training displays:
 
 ## 🔧 Customization
 
-You can modify:
+You can modify as per your choice and needs:
 - ⚡ Learning rate for different convergence speeds
 - 🔁 Number of iterations for training duration
 - 📊 Feature columns in the dataset
