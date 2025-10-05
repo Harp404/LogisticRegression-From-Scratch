@@ -67,7 +67,7 @@ def predict(x, m, c):
     return g
 
 
-# Model loading or training
+# Model loading or training (if model is not present in the same directory as the model.py it will train a new model otherwise will load the model if present in same dit)
 if os.path.exists("model.pkl"):
     print("Loading existing model...")
     with open("model.pkl", "rb") as f:
@@ -107,7 +107,7 @@ while True:
         print("Exiting program")
         break
 
-    # Get input features
+    # Get input features from user input
     feature_cols = ["Temperature (°C)", "Humidity (%)"]
     user_input = []
 
